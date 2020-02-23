@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example</title>
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/2626/2626048.svg">
+  <!-- External -->
+  <script>
+  </script>
+
+<!-- Internal -->
+<!-- tagname < classname < id -->
+  <style>
+
+    #block {
+      background: pink;
+    }
+
+    .div1 {
+      border: 1px solid black;
+      background: yellow;
+    }
+
+    span {
+      border: 1px solid red;
+      font-size: 20px;
+    }
+
+    .parent > .child {
+      background: orange;
+    }
+
+    .parent {
+      background: red;
+    }
+
+    .child {
+      background: blue;
+    }
+
+    .grandchild {
+      background: yellowgreen;
+    }
+  </style>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="parent">
+    Parent
+    <div class="child"  id="block">
+      Child
+      <div class="grandchild">Grandchild</div>
+    </div>
+  </div>
+  <div class="div1">width 500px</div>  
+  <div class="div1">width 500px</div>  
+  <div>block</div>
+
+  <span>inline<br>block</span>
+  <span>inline</span>
+
+  <hr>
+  <header>header</header>
+
+  <main>main</main>
+
+  <footer>footer</footer>
+
+  <ol>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ol>
+
+
+  <ul>
+    <li>item 1</li>
+    <li>item 2</li>
+    <li>item 3</li>
+  </ul>
+
+  <div style="width: 100px;">
+    <img src="https://i.pinimg.com/originals/e2/b8/2a/e2b82aded815e80351b929a77519adaa.jpg"
+    alt="Smiley face"
+     width="500px">image
+  </div>
+
+  <form>
+    <div>
+      <label>
+        label1
+        <input type="text">
+      </label>
+    </div>
+    <div>
+      <label for="input1">text</label>
+      <input type="text" maxlength="3" id="input1">
+    </div><br>
+    number: <input type="number" min="0" max="1000"><br>
+    date: <input type="date"><br>
+    checkbox: 
+    <label>
+      <input type="checkbox" name="checkbox1">
+      Checkbox 1<br>
+    </label>
+    <label>
+      <input type="checkbox" name="checkbox1">
+      Checkbox 2<br>
+    </label>
+    radio: 
+    <label>
+      <input type="radio" name="radio1">
+      Radio 1<br>
+    </label>
+    <label>
+      <input type="radio" name="radio1">
+      Radio 2<br>
+    </label>
+    range: <input type="range" min="0" max="5"><br>
+    <input type="submit" value="Submit">
+    <button type="button"><b>bold</b> text</button>
+  </form>
+
+  <p>Hello <b>World</b> <i>italic text</i> <u>underline</u> <s>strike</s> 
+    <strong>strong</strong>
+    <sub>subscript</sub>
+    <sup>superscript</sup>
+    <span>{{asas}}</span>
+    <br>
+    <big>bigger</big>
+    <small>smaller</small>
+
+    <br>
+    <pre>
+      this is a preformatted text
+    </pre>
+  </p>
+
+  <div>block</div>
+
+  <a href="test.html">Test</a>
+  <a href="https://www.google.com/" target="_blank">Google</a>
+
+  <p>paragraph 2</p>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    div {
+      padding: 10px;
+    }
+   
+
+    .grand,
+    .parent {
+      background: yellowgreen;
+    }
+
+    .child {
+      background: pink;
+    }
+
+    .child.xxx{
+      background: black;
+      color: orange
+    }
+
+    .logo {
+      background: black;
+      color: white;
+      font-size: 30px;
+      padding: 10px;
+      font-family: arial;
+    }
+
+    .logo > .box {
+      background: orange;
+      color: black;
+      padding: 5px;
+      border-radius: 3px;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <span class="logo">
+    Porn
+    <span class="box">hub</span>
+  </span>
+  <div class="parent">
+    PARENT
+    <div class="child">
+      __child
+      <div class="grand">____grand1</div>
+    </div>
+    <div class="child xxx">xxx</div>
+    <div class="grand">__grand2</div>
+    </div>
+</body>
+</html>
