@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body {
+        background-color: #2fcc71;
+        color: white;
+        font-family: Avenir;
+    }
+
+    .login {
+        font-size: 20px;
+    }
+
+    .login-form {
+        background-color: #27ae60;
+        width: 482px;
+        height: 482px;
+        margin: 90px auto 10px;
+    }
+
+    .login-form-title {
+        background-color: #228d4d;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .login-form-title span {
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    .login-form-body {
+        padding: 50px 45px;
+    }
+
+    .input-group {
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .input-group label {
+        padding-bottom: 7px;
+        display: block;
+    }
+
+    .input-group input {
+        background: #5dbf82;
+        height: 40px;
+        border: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .btn {
+        text-align: center;
+        color: white;
+        margin-top: 40px;
+    }
+
+    .btn button {
+        color: white;
+        font-size: 35px;
+        font-weight: 200;
+        background-color: #27ae60;
+        border: unset;
+    }
+
+    .register {
+        margin-top: 10px;
+        color: white;
+        text-align: center;
+    }
+
+    .register a {
+        color: white;
+        text-decoration: none;
+    }
+
+</style>
+
+<body>
+    <form class="login">
+        <div class="login-form">
+            <div class="login-form-title">
+                <span>Login to Website</span>
+            </div>
+            <div class="login-form-body">
+                <div class="input-group">
+                    <label for="">Username</label>
+                    <input id="username" type="text" value="MyUsername" />
+                </div>
+                <div class="input-group">
+                    <label for="">Password</label>
+                    <input id="username" type="password" />
+                </div>
+                <div class="input-checkbox-group">
+                    <label for="remember">Remember Me</label>
+                </div>
+                <div class="btn">
+                    <button>Log In</button>
+                </div>
+            </div>
+        </div>
+        <div class="register">
+            <a href="">Register</a> | <a href="">Lost your password?</a>
+        </div>
+    </form>
+</body>
+
+</html>
