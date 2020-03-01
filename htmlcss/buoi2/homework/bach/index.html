@@ -7,11 +7,101 @@
 
 <body>
   <div id="app">
-    <h1>This is a Heading</h1>
-  <p>This is a paragraph.</p>
+    <div class="header">
+      <div class="header-top">
+        <span class="logo">SITENAME</span>
+        <span class="social-buttons">
+          <image src="./assets/images/icons/facebook.png"></image>
+          <image src="./assets/images/icons/dribble.png"></image>
+          <image src="./assets/images/icons/twitter.png"></image>
+          <image src="./assets/images/icons/flickr.png"></image>
+        </span>
+      </div>
+      <div class="header-bottom">
+        <span class="header-bottom-menu">
+          <span class="menu-item active">HOME</span>
+          <span class="menu-item">ABOUT</span>
+          <span class="menu-item">PORTFOLIO</span>
+          <span class="menu-item">BLOG</span>
+          <span class="menu-item">CONTACT</span>
+        </span>
+        <span class="header-search">
+          <span class="search-title">SEARCH</span>
+          <span class="search-input">
+            <input type="text"></input>
+          </span>
+        </span>
+      </div>
+    </div>
   </div>
   
 
 </body>
+
+<style>
+  #app {
+    display: block;
+    margin: auto;
+    width: 1000px;
+    background-color: #e5a747;
+  }
+
+  .header-top {
+    padding: 25px 20px;
+  }
+
+  .social-buttons {
+    float: right
+  }
+
+  .social-buttons {
+    margin-top: -3px;
+  }
+
+  .social-buttons img {
+    margin-left: 15px;
+  }
+
+  .logo {
+    color: white;
+    font-size: 20px;
+    font-family: serif;
+  }
+
+  .header-bottom {
+    background-color: #40312a;
+    font-family: sans-serif;
+    padding: 15px 20px;
+    color: white;
+  }
+
+  .menu-item {
+    margin-right: 15px;
+    font-family: sans-serif;
+  }
+
+  .menu-item.active {
+    color: #3da2b4;
+  }
+
+  .header-search {
+    float: right;
+  }
+
+  .header-search span {
+    margin-left: 5px;
+  }
+
+  .search-input input {
+    /* background-color: #2c8797; */
+    border-radius: 3px;
+    border: 0px;
+    height: 20px;
+    width: 176px;
+    background: #2c8797 url(assets/images/searchIcon.png) no-repeat right; 
+    background-position: 175px 5px;
+    padding-right: 20px;
+  }
+</style>
 
 </html>
