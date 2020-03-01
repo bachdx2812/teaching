@@ -1,0 +1,83 @@
+body {
+    background-color: #2fcc71;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+p {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.container {
+    width: 500px;
+    margin: 160px auto;
+    color: white;
+}
+.header-title {
+    text-align: center;
+    background-color: #228d4d;
+}
+input.largerCheckbox { 
+    width: 20px; 
+    height: 20px;
+}
+.form-module {
+    background-color: #27ae60;
+    padding-bottom: 32px;
+}
+.regist {
+    margin: 0 auto;
+}
+.fs-32 {
+    font-size: 32px;
+}
+.ml-8 {
+    margin-left: 8px;
+}
+.ml-32 {
+    margin-left: 32px;
+}
+.ml-115 {
+    margin-left: 115px;
+}
+.ml-225 {
+    margin-left: 225px;
+}
+.mb-16 {
+    margin-bottom: 16px;
+}
+.mt-8 {
+    margin-top: 8px;
+}
+.mb-8 {
+    margin-bottom: 8px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.pdbt-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.mb-8 {
+    margin-bottom: 8px;
+}
+.mb-60 {
+    margin-bottom: 60px;
+}
+.mb-80 {
+    margin-bottom: 80px;
+}
+.wd-90 {
+    width: 90%;
+}
+input[type=text], input[type=password] {
+    padding: 8px;
+    font-size: 14px;
+}
+button {
+    border-radius: 16px;
+    font-size: 20px;
+}
+.pd-8 {
+    padding: 8px;
+}
