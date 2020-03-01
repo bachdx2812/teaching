@@ -1,0 +1,48 @@
+body {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.icon {
+    width: 64px;
+    height: 64px;
+}
+.icon-face::before {
+    content: url('assets/img/icons/facebook.png');
+}
+.icon-dribble::before {
+    content: url('assets/img/icons/dribble.png');
+}
+.icon-flickr::before {
+    content: url('assets/img/icons/flickr.png');
+}
+.icon-twitter::before {
+    content: url('assets/img/icons/twitter.png');
+}
+.wd-40 {
+    width: 40px;
+}
+.name-site {
+    letter-spacing: 2px;
+}
+.header {
+    background-color: burlywood;
+    display: inline;
+    margin-bottom: 30px;
+}
+.inline {
+    display: inline;
+}
+.social-list {
+    float: right;
+}
+.navi {
+    background-color: black;
+}
+.search-el {
+    float: right;
+}
