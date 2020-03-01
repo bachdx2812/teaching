@@ -1,0 +1,95 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+header {
+  width: 100%;
+}
+
+.container {
+  width: 1020px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.navbar {
+  background: #e5a747;
+  clear: both;
+}
+
+.brand {
+  color: white;
+  text-transform: uppercase;
+  float: left;
+  font-size: 30px;
+  padding: 32px 36px;
+}
+
+.social {
+  float: right;
+  padding: 33px 35px 32px;
+}
+
+.social > a {
+  display: inline-block;
+  width: 30px;
+  margin-left: 19px;
+}
+
+.social > a > img {
+  width: 100%;
+}
+
+.menu-bar {
+  background: #40312a;
+}
+
+.menu-items {
+  float: left;
+  padding: 0 34px;
+}
+
+.menu-items > a {
+  display: inline-block;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 21px 0;
+  margin-right: 30px;
+}
+
+.menu-items > a.active {
+  color: #2c8797;
+}
+
+.search {
+  float: right;
+  padding: 0 34px;
+}
+
+.search > label {
+  display: inline-block;
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding: 18px 0;
+}
+
+.search > label > input {
+  color: white;
+  text-transform: none;
+  background-color: #2c8797;
+  background-image: url("./assets/img/searchIcon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  padding: 6px 36px 6px 12px;
+  border-radius: 5px;
+  border: none;
+  width: 143px;
+  margin-left: 10px;
+}
