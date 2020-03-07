@@ -1,0 +1,163 @@
+body {
+  font-family: sans-serif;
+  margin: 0 0;
+  overflow: hidden;
+}
+.header {
+  background: #E5A94B;
+  height: 70px;
+  clear: both;
+}
+.brand {
+  font-family: 'Roboto Slab', sans-serif;
+  float: left;
+  letter-spacing: 3px;
+  margin-left: 32px;
+  color: white;
+}
+.social {
+  margin-top: 0.83em;
+  float: right;
+  padding: 8px;
+  padding-right: 0px;
+}
+.social img:last-child {
+  padding-right: 0px;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  padding: 0 8px;
+}
+.container {
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+.nav-list {
+  float: left;
+  margin-left: 22px;
+  margin-top: 20px;
+}
+.sss {
+  margin: 0 0;
+}
+.search > label {
+  display: inline-block;
+  font-family: sans-serif;
+  color: white;
+  text-transform: uppercase;
+  padding: 20px 0;
+  float: right;
+}
+.search > label > input  {
+  color: white;
+  text-transform: none;
+  background-color: #2c8797;
+  background-image: url("asset/img/searchIcon.png");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  padding: 6px 36px 6px 12px;
+  border-radius: 5px;
+  border: none;
+  width: 143px;
+  margin-left: 10px;
+}
+.nav {
+  height: 70px;
+  background: #40312a;
+}
+.nav-list a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 10px;
+  transition: 0.4s;
+}
+.nav-list a:hover {
+  color: #3498db;
+}
+.welcome-text {
+  padding: 28px;
+  padding-bottom: 0;
+  color: #3da2b4;
+  font-family: 'Roboto Slab', sans-serif;
+  letter-spacing: 1px;
+}
+.welcome-para {
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  margin-left: 28px;
+  color: white;
+  width: 500px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.relative {
+  position: relative;
+}
+.img-welcome {
+  position: absolute;
+  top: 54px;
+  right: 12%;
+}
+.img-behind {
+  position: absolute;
+  top: 12px;
+  right: -84px;
+  z-index: 10;
+}
+.img-front {
+  z-index: 20;
+}
+
+.img {
+  box-shadow: 5px 5px 10px;
+}
+.mh-360 {
+  min-height: 360px;
+}
+.welcome-content {
+  position: relative;
+  background: #d5c39e;
+}
+.welcome {
+  margin-left: 32px;
+  border-radius: 4px;
+  background: #40312a;
+  min-height: 262px;
+}
+.welcome > div > a {
+  text-decoration: none;
+  color: white;
+  width: 120px;
+  padding: 12px 24px;
+  background: #fdbe5c;
+  border-radius: 4px;
+}
+.welcome > div > a:last-child {
+  margin-left: 28px;
+}
+.guide {
+  margin: 24px 32px;
+}
+.breadcrum {
+  margin-left: 32px;
+  margin-top: -4px;
+  padding: 12px 32px;
+  border-radius: 4px;
+  background: #2c8797;
+  color: white;
+  position: relative;
+}
+
+.breadcrum::after {
+  position: absolute;
+  display: inline-block;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 12px solid #d5c39e;
+  left: 215px;
+  top: 29.6px;
+  content: '';
+}
