@@ -1,154 +1,174 @@
-body,
-html {
-  padding: 0;
-  margin: 0;
-}
 
+body {
+    margin: 0;
+    padding: 0;
+    }
 .container {
-  width: 1000px;
-  margin: auto;
-  display: block;
+    width: 1000px;
+    margin: auto;
+    display: block;
 }
 
 .header {
-  background: #e8a744;
+    background: #E8A744;
 }
 
 .navigation {
-  background-color: #42302e;
+    background-color: #42302E;
 }
 
 .header-container-banner {
-  overflow: hidden;
+    overflow: hidden;
 }
 
 .header-container-banner-name {
-  float: left;
-  color: white;
-  font-size: 25px;
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  letter-spacing: 3px;
-  font-family: serif;
+    float: left;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-family: serif;
 }
 
 .header-container-banner-logo {
-  float: right;
-  margin-top: 20px;
-  margin-right: 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
 }
 
 .header-container-nav {
-  overflow: hidden;
-  color: white;
-  font-family: sans-serif;
+    overflow: hidden;
+    color: white;
+    font-family: sans-serif;
 }
 
 .header-container-nav-link {
-  float: left;
-  margin-left: 20px;
-  margin-bottom: 15px;
-  margin-top: 15px;
-  letter-spacing: 2px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    letter-spacing: 2px;
 }
 
 .header-container-nav-search {
-  float: right;
-  margin-right: 20px;
-  margin-top: 15px;
+    float: right;
+    margin-right: 20px;
+    margin-top: 15px;
 }
 
 #searchbar {
-  background-color: #35879a;
-  border: 0px solid;
-  border-radius: 4px;
-  height: 20px;
-  background-image: url(searchicon.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 15px 15px;
-  background-position-x: 130px;
-  width: 150px;
+    background-color: #35879A;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 20px;
+    background-image: url(assets/searchicon.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px 15px;
+    background-position-x: 130px;
+    width: 150px;
 }
 
 .icon {
-  padding-right: 15px;
+    padding-right: 15px;
 }
 
 .link {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .link a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 #home a {
-  color: #2c8797;
+    color: #2c8797;
 }
 
 .poster {
-  background-color: #d9ca97;
-  padding: 20px 15px 15px 20px;
+    background-color: #D9CA97;
+    padding: 20px 15px 15px 20px;
 }
 
 .poster-mainbox {
-  background-color: #3f322a;
-  width: 970px;
-  color: white;
-  border-radius: 6px;
+    background-color: #3F322A;
+    width: 970px;
+    color: white;
+    border-radius: 6px;
 }
 
 .poster-mainbox-welcome {
-  color: #3da2b4;
-  font-size: 25px;
+    color: #3da2b4;
+    font-size: 25px;
 }
 
 #search {
-  padding-right: 5px;
-  letter-spacing: 1px;
+    padding-right: 5px;
+    letter-spacing: 1px;
 }
 
 .poster-mainbox {
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 25px;
 }
 
 #button1 {
-  background-color: #fbbc5b;
-  color: white;
-  width: 150px;
-  height: 40px;
-  font-size: 15px;
-  border: none;
-  border-radius: 4px;
+    background-color: #fbbc5b;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    
 }
 
 #button2 {
-  background-color: #fbbc5b;
-  color: white;
-  width: 150px;
-  height: 40px;
-  font-size: 15px;
-  border: none;
-  border-radius: 4px;
+    background-color: #fbbc5b;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    margin-left:30px;
 }
 
-p {
-  text-align: justify;
+
+.text{
+    width: 481px;
+    letter-spacing: 0px;
+    text-align-last: justify;
+    font-family: sans-serif ;
+    line-height: 21px;
 }
 
 .poster-wholebox {
-  background-color: #2c8797;
-  color: white;
-  padding-bottom: 10px;
-  border-radius: 6px;
+    background-color: #2c8797;
+    color: white;
+    padding-bottom: 30px;
+    border-radius: 6px;
 }
 
 #poster-wholebox-message {
-  margin-top: 10px;
-  margin-left: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.poster-picture {
+    margin-left:725px;
+    margin-top:-245px;
+    position: relative;
+}
+#picture1 {
+    position: absolute;
+    top:-10px;
+    left:-90px;
+    
+}
+.poster-mainbox-button{
+    padding-top: 20px;
 }
