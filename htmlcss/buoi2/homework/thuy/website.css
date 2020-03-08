@@ -13,8 +13,11 @@
   color: white;
   font-size: 14px;
 }
-.header {
+.header-bg {
   background: #e5a747;
+
+}
+.header {
   display: flex;
   padding: 20px 25px 18px 30px;
   justify-content: space-between;
@@ -26,9 +29,11 @@
 .header-icon > img {
   padding-left: 15px;
 }
-
-.navigate {
+.navigate-bg {
   background: #40312a;
+
+}
+.navigate {
   padding: 15px 25px 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -49,7 +54,7 @@
 }
 
 .search-input {
-  background-image: url("./assets/img/searchIcon.png");
+  background-image: url("../../assets/img/searchIcon.png");
   background-position: right 6px center;
   background-repeat: no-repeat;
   margin-left: 12px;
@@ -63,14 +68,17 @@
 }
 
 /* welcome css */
-.welcome {
+.welcome-bg {
   background-color: #d5c39e;
+
+}
+.welcome {
   padding: 40px 30px;
 }
 .welcome-text {
   background-color: #40312a;
   border-radius: 7px;
-  padding: 15px 25px;
+  padding: 15px 25px 0;
 }
 
 .welcome-text > h3 {
@@ -80,13 +88,14 @@
 
 .welcome-img {
   position: absolute;
-  top: 19px;
-  right: 54px;
+  top: 22px;
+  right: 40px;
 }
 .featuredImage1 {
   position: relative;
   z-index: 1;
   right: 100px;
+  width: 87%;
   box-shadow: -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
     -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
     -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
@@ -97,6 +106,7 @@
   position: absolute;
   right: 0;
   top: 5%;
+  width: 87%;
   box-shadow: -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
     -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
     -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
@@ -105,10 +115,13 @@
 }
 .description {
   padding: 10px 0 25px;
-  width: 40%;
+  width: 47%;
   text-align: justify;
 }
 .welcome-btn {
+  padding: 0 0 25px;
+}
+.welcome-btn > button {
   background-color: #fdbe5c;
   border: none;
   border-radius: 4px;
@@ -131,8 +144,8 @@
   bottom: -13px;
   content: "";
   display: block;
-  height: 20px;
-  left: 20%;
+  height: 16px;
+  left: 210px;
   margin-left: -20px;
   position: absolute;
   transform: rotate(45deg);
