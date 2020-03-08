@@ -73,8 +73,13 @@
 
 }
 .welcome {
-  padding: 40px 30px;
+  padding: 40px 0;
+
+  /* Chỗ này không cần 2 bên nhé */
+  /* Các container khác em cũng bỏ padding 2 bên đi nhé, không cần thiết, vì có width cố định rồi */
+  /* padding: 40px 30px; */
 }
+
 .welcome-text {
   background-color: #40312a;
   border-radius: 7px;
@@ -94,7 +99,9 @@
 .featuredImage1 {
   position: relative;
   z-index: 1;
-  right: 100px;
+  right: 50px;
+  /* Vị trí chỗ này cần điều chỉnh 1 chút cho giống design */
+  /* right: 100px; */
   width: 87%;
   box-shadow: -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
     -1px 29px 18px -22px rgba(14, 80, 92, 0.87),
