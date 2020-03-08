@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-03</title>
+    <style>
+        body {
+            background-color: white;
+        }
+
+        .background {
+            margin: auto;
+            width: 1017px;
+
+            padding: 0;
+            background-color: #E5A747;
+        }
+
+        .title-sitename {
+            background-color: #E5A747;
+            width: 1017px;
+            height: 100px;
+
+        }
+
+        .title-select {
+            background-color: #40312A;
+            width: 1017px;
+            height: 60px;
+        }
+
+        .title-welcomeContent {
+            background-color: #D5C39E;
+            width: 1017px;
+            height: 400px;
+            position: relative;
+        }
+
+        .title-welcomeContent-detail {
+            background-color: #40312A;
+            margin: auto;
+            top: 50px;
+            z-index: 1;
+            left: 37px;
+            width: 948px;
+            height: 258px;
+            position: absolute;
+            border-radius: 2.5%;
+
+        }
+
+        .content-direct {
+            background-color: #2C8797;
+            width: 948px;
+            height: 58px;
+            left: 37px;
+            top: 287px;
+            position: absolute;
+            border-radius: 2.5%;
+        }
+
+
+        .title-welcomeContent-button {
+            background-color: #E5A747;
+            border: none;
+            text-align: center;
+            font-size: 19px;
+            color: white;
+            border-radius: 4px;
+            width: 158px;
+            height: 40px;
+        }
+
+        .float-left {
+            float: left;
+        }
+
+
+
+        .float-right {
+            float: right;
+
+        }
+
+        .float-right-text {
+            font-size: 15px;
+        }
+
+        .text-sitename-tag {
+            color: white;
+            font-size: 26px;
+            letter-spacing: 2.5px;
+        }
+
+        /* Màu link và text-decoration */
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            color: #2C8797;
+            background-color: transparent;
+            text-decoration: none;
+
+        }
+
+
+
+        .featuredImage1 {
+            position: absolute;
+            top: 30px;
+            right: 115px;
+            z-index: 1;
+        }
+
+        .featuredImage2 {
+            position: absolute;
+            top: 48px;
+            right: 35px;
+        }
+
+        .input-search {
+            border-radius: 10px;
+            background-color: #2C8797;
+            color: white;
+            padding-right: 34px;
+            height: 23px;
+            width: 133px;
+        }
+
+        .button-search {
+            background-color: #2C8797;
+            margin-left: -40px;
+            border: none;
+        }
+
+        .welcome-title {
+            font-size: 26px;
+            color: #2C8797;
+            padding-top: 18px;
+            padding-left: 0px;
+        }
+
+        .content-direct-text {
+            color: white;
+            font-size: 14px;
+            padding-top: 33px;
+            padding-left: 41px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="background">
+
+        <div class="title-sitename">
+            <div class="float-left" style="padding-left: 34px;padding-top:34px">
+                <div class="text-sitename-tag">SITENAME</div>
+
+            </div>
+            <div class="float-right" style="padding-right: 25px;padding-top:36px">
+                <div>
+                    <img src="img/icons/facebook.png" hspace="8">
+                    <img src="img/icons/flickr.png" hspace="8">
+                    <img src="img/icons/dribble.png" hspace="8">
+                    <img src="img/icons/twitter.png" hspace="8">
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="title-select">
+            <div class="float-left"
+                style="padding-left: 36px;padding-top:20px;word-spacing: 25px;letter-spacing: 0.5px">
+                <div>
+                    <a href="..">HOME</a>
+                    <a href="..">ABOUT</a>
+                    <a href="..">PORTFOLIO</a>
+                    <a href="..">BLOG</a>
+                    <a href="..">CONTACT</a>
+                </div>
+            </div>
+            <div class="text-sitename-tag">
+                <div class="float-right" style="padding-right: 38px;padding-top:15px;">
+
+                    <div style="word-spacing: 5px;">
+                        <div class="float-right-text">SEARCH
+
+                            <input type="text" placeholder="" name="search" class="input-search">
+                            <button type="submit" class="button-search"><img src="img/searchIcon.png"></button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="title-welcomeContent">
+            <div class="title-welcomeContent-detail">
+                <div class="float-left" style="padding-left: 41px;padding-top:6px">
+                    <div class="welcome-title">WELCOME TO OUR SITE</div>
+                    <div style="word-spacing: 25px;padding-top: 134px;">
+                        <button class="title-welcomeContent-button">LEARN MORE</button>
+                        <button class="title-welcomeContent-button">OUR WORK</button>
+                    </div>
+                </div>
+
+                <div class="float-right" style="padding-right: 20px;padding-top:10px;">
+                    <img src="img/featuredImage1.jpg" class="featuredImage1">
+                    <img src="img/featuredImage2.jpg" class="featuredImage2">
+                </div>
+            </div>
+
+            <div class="content-direct">
+                <div class="float-left">
+                    <div class="content-direct-text">You're here: Home > Welcome...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
