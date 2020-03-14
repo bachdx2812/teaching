@@ -10,6 +10,14 @@ body {
   width: 950px;
   margin: 0 auto;
 }
+/* -------------------------------share */
+.main-title {
+  margin: 0;
+  padding-bottom: 30px;
+  color: #257385;
+  letter-spacing: 1px;
+  font-size: 20px;
+}
 /* Top ---------------------------------- */
 .main-menu {
   background-color: #42302e;
@@ -84,7 +92,7 @@ body {
   padding: 30px 40px;
   height: 260px;
   z-index: 2;
-    position: relative;
+  position: relative;
 }
 .banner .banner-text {
   float: left;
@@ -115,7 +123,7 @@ body {
 .banner-action {
   padding: 43px 0px;
 }
-.banner-action a:first-child{
+.banner-action a:first-child {
   margin-right: 30px;
 }
 .orange-btn {
@@ -132,15 +140,15 @@ body {
   height: 250px;
   float: right;
   position: relative;
-  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.164);
 }
-.banner-img img{
+.banner-img img {
   position: absolute;
   z-index: 1;
   right: 0px;
   top: 20px;
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.164);
 }
-.banner-img img:first-child{
+.banner-img img:first-child {
   z-index: 2;
   left: 0px;
   top: 0px;
@@ -167,7 +175,7 @@ body {
 .breadcrumb-details a {
   text-decoration: none;
   color: white;
-  position:relative;
+  position: relative;
 }
 a.active:after {
   width: 0px;
@@ -175,8 +183,134 @@ a.active:after {
   content: "";
   border-left: 5px solid transparent;
   border-right: 5px solid transparent;
-  border-bottom: 10px solid #d5c39e;
+  border-bottom: 10px solid #fdbe5c;
   left: 50%;
   bottom: -15px;
   position: absolute;
+}
+/* -------------------------------------content */
+.content {
+  overflow: hidden;
+  background: rgb(248, 238, 223);
+  background: linear-gradient( 90deg, rgba(248, 238, 223, 1) 0%, rgba(248, 238, 223, 1) 55%, rgba(238, 224, 201, 1) 55%, rgba(238, 224, 201, 1) 100% );
+}
+
+.content-left {
+  background-color: #f8eedf;
+  width: 600px;
+  padding: 50px 0;
+  float: left;
+}
+.content-right {
+  width: 350px;
+  float: right;
+}
+
+.content-name {
+  color: #000000c4;
+  letter-spacing: 2px;
+  font-size: 20px;
+  padding-right: 50px;
+}
+
+.content-date {
+  color: #ce953c;
+  font-size: 12px;
+  font-family: fantasy;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.content-text {
+  color: #000000ad;
+  margin-top: 15px;
+  font-size: 13px;
+  padding-right: 50px;
+}
+.content-text span {
+  display: block;
+  margin-bottom: 30px;
+}
+.content-right .right {
+  margin: 50px 0 50px 40px;
+}
+.comment {
+  background: #257386;
+  border-radius: 5px;
+  color: white;
+}
+.comment ul {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+li.active {
+  background: #257386;
+}
+.comment ul li {
+  list-style: none;
+  float: left;
+  padding: 15px 7px;
+}
+.comment a {
+  color: white;
+  text-decoration: none;
+  border-top-right-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+}
+.comment-item {
+  padding: 15px 10px;
+  font-size: 13px;
+  font-family: fantasy;
+}
+.comment-item:first-child {
+  border-bottom: 1px #399cac solid;
+}
+.posted {
+  display: block;
+  color: #f8eedf !important;
+}
+.who-are-we {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.content-right img {
+  border: 5px solid #febf5d;
+  max-width: 300px;
+}
+.who-are-we .text{
+  margin-top: 20px;
+  color: #000000c9;
+  font-size: 13px;
+}
+.who-are-we .text a{
+  text-decoration: none;
+  color: #247184;
+}
+.design-info{
+  text-align: justify;
+}
+.sponsors img:first-child {
+  margin-right: 35px;
+}
+a.read-more-text {
+  text-decoration: none;
+}
+.the-blog {
+  position: relative;
+}
+.the-blog button{
+  position: absolute;
+  margin-top: 30px;
+  color: #fff;
+  border-radius: unset;
+  background-color: #000;
+  font-size: 15px;
+  box-shadow: none;
+  padding: 5px 15px;
+  right: 50px;
 }
