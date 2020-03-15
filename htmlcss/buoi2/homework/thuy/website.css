@@ -15,15 +15,14 @@
 }
 .header-bg {
   background: #e5a747;
-
 }
 .header {
   display: flex;
   padding: 20px 0;
   justify-content: space-between;
+  align-items: center;
 }
 .header-title {
-  margin: auto 0;
   color: white;
 }
 .header-icon > img {
@@ -31,13 +30,12 @@
 }
 .navigate-bg {
   background: #40312a;
-
 }
 .navigate {
   padding: 15px 0;
   display: flex;
   justify-content: space-between;
-  /* overflow: hidden; */
+  align-items: center;
 }
 
 .link {
@@ -70,7 +68,6 @@
 /* welcome css */
 .welcome-bg {
   background-color: #d5c39e;
-
 }
 .welcome {
   padding: 40px 0;
@@ -161,7 +158,14 @@
 
 /* body css */
 .body-bg {
-  background: linear-gradient(90deg, #f8eedf 0%,#f8eedf 50%, rgba(121,9,9,1) 50%, #f0e0cb 50%, #f0e0cb 100%);
+  background: linear-gradient(
+    90deg,
+    #f8eedf 0%,
+    #f8eedf 50%,
+    rgba(121, 9, 9, 1) 50%,
+    #f0e0cb 50%,
+    #f0e0cb 100%
+  );
 }
 .body {
   display: flex;
@@ -169,7 +173,7 @@
 .blog {
   background-color: #f8eedf;
   padding: 40px 30px 20px 0;
-  width: calc(100% * 2/3);
+  width: calc(100% * 2 / 3);
 }
 .blog > h3 {
   color: #257385;
@@ -210,7 +214,7 @@
 .about-us {
   background-color: #f0e0cb;
   padding: 40px 0 40px 30px;
-  width: calc(100% * 1/3);
+  width: calc(100% * 1 / 3);
 }
 .comment {
   background-color: #257386;
@@ -220,14 +224,15 @@
 }
 
 .tab {
-  width: calc(100% / 3);
-  display: inline-block;
-  padding: 12px 10px;
+  padding-right: 10px;
   background-color: #40312a;
-  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .tab-active {
   background-color: #257386;
+  padding: 12px 10px;
 }
 .about-description {
   padding: 10px 16px;
@@ -242,13 +247,14 @@ hr {
   width: 97%;
   margin: 0 auto;
 }
-.who-we-are { 
+.who-we-are {
   margin: 50px 0;
 }
 .sponsors {
   margin: 20px 0;
 }
-.who-we-are > h3, .sponsors > h3 {
+.who-we-are > h3,
+.sponsors > h3 {
   color: #72979d;
   margin: 30px 0;
 }
@@ -275,8 +281,11 @@ hr {
 .footer-content {
   display: flex;
   padding: 30px 0;
+  justify-content: space-between;
 }
-.footer-quote > h3, .footer-projects > h3, .footer-twitter > h3 {
+.footer-quote > h3,
+.footer-projects > h3,
+.footer-twitter > h3 {
   margin-bottom: 10px;
   color: #257385;
 }
@@ -284,66 +293,65 @@ hr {
   background-color: #febf5d;
   color: #fff;
   padding: 10px;
-  border: none;
   margin-top: 25px;
+  border: none;
+  display: block;
+  float: right;
 }
-.footer-quote, .footer-projects, .footer-twitter {
-  width: calc(100%/3);
-  padding-right: 20px;
+.footer-quote,
+.footer-projects,
+.footer-twitter {
+  width: 30%;
 }
 .footer-image {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
-.recentProject1, .recentProject2 {
+.footer-image > img {
   border: 2px solid #febf5d;
-  margin: 10px 0px;
-}
-.recentProject3, .recentProject4 {
-  border: 2px solid #febf5d;
-  margin: 10px 20px 10px 0;
+  margin: 10px 0;
+  width: 45%;
 }
 .twitter-text {
-  margin: 16px 0;
+  margin: 16px 0 10px;
 }
 .twitter-text > p {
   color: #fff;
+  font-size: 15px;
 }
 .twitter-text > i {
   color: #35727c;
+  font-size: 13px;
 }
 .fname {
   display: block;
   float: left;
-  width: 40%;
+  width: 43%;
   padding: 10px;
-  margin: 9px 0 10px;
+  margin: 9px 0;
   background-color: #f8eedf;
-
 }
 .femail {
   display: block;
   float: right;
-  width: 50%;
+  width: 54%;
   padding: 10px;
-  margin: 9px 10px 10px;
+  margin: 10px 0;
   background-color: #f8eedf;
-
 }
 .fdetail {
   padding: 10px;
-  margin: 5px 0 10px;
-  width: 97%;
+  margin: 5px 0;
+  width: 100%;
   background-color: #f8eedf;
   resize: none;
-
 }
 .ftimesacle {
   padding: 10px;
-  margin: 5px 0 10px;
-  width: 97%;
+  margin: 5px 0;
+  width: 100%;
   background-color: #f8eedf;
-
 }
 ::placeholder {
   color: #247184;
@@ -352,7 +360,7 @@ hr {
 .copyright {
   background-color: #2c8797;
 }
-.copyright-content{
+.copyright-content {
   padding: 20px 0;
   color: #ffff;
   display: flex;
