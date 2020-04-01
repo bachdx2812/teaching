@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="699" height="974" viewBox="0 0 699 974">
+    <defs>
+        <style>
+            .cls-1,.cls-3{fill:none}.cls-2{opacity:.86;clip-path:url(#clip-path)}.cls-3{stroke:#f5f5f5}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h699v974H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Repeat_Grid_1" class="cls-2" data-name="Repeat Grid 1">
+        <g transform="translate(-276 -.5)">
+            <path id="Line_2" d="M0 0v1080" class="cls-3" data-name="Line 2" transform="translate(276.5 .5)"/>
+        </g>
+        <g transform="translate(-105 -.5)">
+            <path id="Line_2-2" d="M0 0v1080" class="cls-3" data-name="Line 2" transform="translate(276.5 .5)"/>
+        </g>
+        <g transform="translate(66 -.5)">
+            <path id="Line_2-3" d="M0 0v1080" class="cls-3" data-name="Line 2" transform="translate(276.5 .5)"/>
+        </g>
+        <g transform="translate(237 -.5)">
+            <path id="Line_2-4" d="M0 0v1080" class="cls-3" data-name="Line 2" transform="translate(276.5 .5)"/>
+        </g>
+        <g transform="translate(408 -.5)">
+            <path id="Line_2-5" d="M0 0v1080" class="cls-3" data-name="Line 2" transform="translate(276.5 .5)"/>
+        </g>
+    </g>
+</svg>
